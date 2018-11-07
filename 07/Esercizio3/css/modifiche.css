@@ -1,0 +1,24 @@
+.d1{
+	background-color : yellow;
+	border-style : solid;
+	border-color : black;
+	width : 305px;
+}
+.d2{
+	background-color : aqua;
+	border-style : solid;
+	border-color : black;
+	width : 150px;
+	vertical-align: top;
+}
+.d3{
+	background-color : aqua;
+	border-style : solid;
+	border-color : black;
+	width : 150px;
+}
+.dImmagine{
+	left : 200 px;
+	display : inline-block;
+	vertical-align: top;
+}
