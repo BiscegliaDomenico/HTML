@@ -1,0 +1,250 @@
+<html>
+	<head>
+	<title>Esercizio 3</title>
+		<style>
+			@keyframes d1 {
+				0%   {background-color: red;}
+				25%  {background-color: yellow;}
+				50%  {background-color: green;}
+				100% {background-color: blue;}
+			}
+			#div1 {
+				width: 200px;
+				height: 200px;
+				background-color: red;
+				margin : auto;
+			}
+			#div1:hover{
+				
+				animation-name: d1;
+				animation-duration: 4s;
+			}
+			
+			@keyframes d2 {
+				0%   {background-color: red; left:0px; top:0px;}
+				25%  {background-color: yellow; left:200px; top:0px;}
+				50%  {background-color: green; left:200px; top:200px;}
+				75%  {background-color: green; left:0px; top:200px;}
+				100% {background-color: blue; left:0px; top:0px;}
+			}
+			#div2{
+				width : 200px;
+				height : 200px;
+				background-color : red;
+				position : relative;
+				margin : auto;
+			}
+			#div2:hover{
+				animation-name : d2;
+				animation-duration : 4s;
+			}
+			
+			@keyframes d3 {
+			
+				0%   {background-color: red; left:0px; top:0px;}
+				25%  {background-color: yellow; left:200px; top:0px;}
+				50%  {background-color: green; left:200px; top:200px;}
+				75%  {background-color: green; left:0px; top:200px;}
+				100% {background-color: blue; left:0px; top:0px;}
+			}
+			#div3{
+				width : 200px;
+				height : 200px;
+				background-color : red;
+				position : relative;
+				margin : auto;
+			}
+			#div3:hover{
+			
+				animation-delay: 5s;
+				animation-name : d3;
+				animation-duration : 5s;
+			}
+			
+			@keyframes d4 {
+			
+				0%   {background-color: red; left:0px; top:0px;}
+				25%  {background-color: yellow; left:200px; top:0px;}
+				50%  {background-color: green; left:200px; top:200px;}
+				75%  {background-color: green; left:0px; top:200px;}
+				100% {background-color: blue; left:0px; top:0px;}
+			}
+			#div4{
+				width : 200px;
+				height : 200px;
+				background-color : red;
+				position : relative;
+				margin : auto;
+			}
+			#div4:hover{
+				
+				transition : ease-in-out;
+				animation-name : d4;
+				animation-duration : 5s;
+			}
+			
+			#div5{
+				margin : auto;
+				width : 200px;
+				height : 200px;
+				background-color : red;
+				position : relative;
+			}
+			@keyframes d5 {
+			
+				0%   {background-color: red; left:0px; top:0px;}
+				25%  {background-color: yellow; left:250px; top:10px;}
+				50%  {background-color: green; left:207px; top:300px;}
+				75%  {background-color: green; left:20px; top:200px;}
+				100% {background-color: blue; left:0px; top:0px;}
+			}
+			#div5:hover{
+				animation-name : d5;
+				animation-duration : 4s;
+			}
+			#div6{
+				margin : auto;
+				width : 200px;
+				height : 200px;
+				background-color : red;
+				position : relative;
+			}
+			@keyframes d6 {
+			
+				0%   {background-color: red; left:0px; top:0px;}
+				25%  {background-color: yellow; right:250px; top:10px;}
+				50%  {background-color: green; left:207px; top:300px;}
+				75%  {background-color: green; right:20px; top:200px;}
+				100% {background-color: blue; left:0px; top:0px;}
+			}
+			#div6:hover{
+				animation-name : d6;
+				animation-duration : 4s;
+			}
+			
+			#div7{
+				margin : auto;
+				width : 200px;
+				height : 200px;
+				background-color : red;
+				position : relative;
+			}
+			@keyframes d7 {
+			
+				0%   {background-color: red; left:0px; top:0px;}
+				25%  {background-color: yellow; left:-200px; top:0px;}
+				50%  {background-color: green; left:-200px; top:200px;}
+				75%  {background-color: green; left:0px; top:200px;}
+				100% {background-color: blue; left:0px; top:0px;}
+			}
+			#div7:hover{
+				animation-name : d7;
+				animation-duration : 4s;
+			}
+			
+			#div8{
+				margin : auto;
+				width : 200px;
+				height : 200px;
+				background-color : red;
+				position : relative;
+			}
+			@keyframes d8 {
+			
+				0%   {background-color: red; left:0px; top:0px;}
+				25%  {background-color: blue; left:200px; top:500px;}
+				50%  {background-color: red; left:200px; top:200px;}
+				75%  {background-color: yellow; left:200px; top:200px;}
+				100% {background-color: brown; left:40px; top:0px;}
+			}
+			#div8:hover{
+				
+				animation-name : d8;
+				animation-duration : 4s;
+			}
+			
+			#div9{
+				margin : auto;
+				width : 200px;
+				height : 200px;
+				background-color : red;
+				position : relative;
+			}
+			@keyframes d9 {
+			
+				0%   {background-color: red; left:0px; top:0px;}
+				25%  {background-color: blue; left:200px; top:300px;}
+				50%  {background-color: red; left:233px; top:200px;}
+				75%  {background-color: yellow; left:250px; top:200px;}
+				100% {background-color: blue; left:40px; top:300px;}
+			}
+			#div9:hover{
+				
+				animation-name : d9;
+				animation-duration : 4s;
+			}
+			
+			#div10{
+				margin : auto;
+				width : 200px;
+				height : 200px;
+				background-color : red;
+				position : relative;
+			}
+			@keyframes d10 {
+			
+				0%   {background-color: red; left:0px; top:0px;}
+				25%  {background-color: pink; right:200px; top:500px;}
+				50%  {background-color: yellow; right:200px; top:200px;}
+				75%  {background-color: green; right:200px; top:200px;}
+				100% {background-color: brown; right:40px; top:70px;}
+			}
+			#div10:hover{
+				
+				animation-name : d10;
+				animation-duration : 4s;
+			}
+		</style>
+	</head>
+	<body>
+		<article>
+			<div id = "div1">1°</div>
+		</article>
+		<br>
+		<article>
+			<div id = "div2">2°</div>
+		</article>
+		<br>
+		<article>
+			<div id = "div3">3°</div>
+		</article>
+		<br>
+		<article>
+			<div id = "div4">4°</div>
+		</article>
+		<br>
+		<article>
+			<div id = "div5">5°</div>
+		</article>
+		<br>
+		<article>
+			<div id = "div6">6°</div>
+		</article>
+		<br>
+		<article>
+			<div id = "div7">7°</div>
+		</article>
+		<br>
+		<article>
+			<div id = "div8">8°</div>
+		</article>
+		<br>
+		<article>
+			<div id = "div9">9°</div>
+		</article>
+		<br>
+		<article>
+			<div id = "div10">10°</div>
+		</article>
+	</body>
+</html>

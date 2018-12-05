@@ -3,9 +3,10 @@
 	<title>Esercizio 2</title>
 	<style>
 			#div1 {
+				margin : auto;
 				width: 200px;
 				height: 200px;
-				background: red;
+				background: blue;
 				transition: width 0.5s;
 				transition : height 0.5s;
 			}
@@ -15,23 +16,64 @@
 			}
 			
 			#div2{
+				margin : auto;
 				width: 200px;
 				height: 200px;
-				background: green;
+				background: red;
 			}
 			#div2:hover{
-				background : blue;
+				background : yellow;
 			}
 			
 			
 			#div3
 			{
+				margin : auto;
 				width: 200px;
 				height: 200px;
-				background: yellow;
-				transition-timing-function: ease;
+				transition: transform 2s ease-in-out;
+				background : green;
 			}
 			#div3:hover{
+				transform: translate(200px, 0px);
+				
+			}
+			#div4 {
+				margin : auto;
+				width: 200px;
+				height: 200px;
+				background: black;
+				transition: width 2s, height 2s, transform 2s;
+			}
+
+			#div4:hover {
+				width: 300px;
+				height: 300px;
+				
+				transform: rotate(180deg);
+			}
+			
+			#div5 {
+				margin : auto;
+				width: 200px;
+				height: 200px;
+				background-color: yellow;
+			}
+
+			#div5:hover {
+				transform: rotateY(150deg);
+			}
+			
+			#div6
+			{
+				margin : auto;
+				width: 200px;
+				height: 200px;
+				transition: transform 2s linear;
+				background : cyan;
+			}
+			#div6:hover{
+				transform: translate(0px, 200px);
 				
 			}
 		</style>
@@ -40,25 +82,25 @@
 		<article>
 			<div id = "div1">1°</div>
 		</article>
+		<br>
+		<article>
 			<div id = "div2">2°</div>
-		<article>
-		
 		</article>
-		
+		<br>
 		<article>
-		
+			<div id = "div3">3°</div>
 		</article>
-		
+		<br>
 		<article>
-		
+			<div id = "div4">4°</div>
 		</article>
-		
+		<br>
 		<article>
-		
+			<div id = "div5">5°</div>
 		</article>
-		
+		<br>
 		<article>
-		
+			<div id = "div6">6°</div>
 		</article>
 	</body>
 </html>
